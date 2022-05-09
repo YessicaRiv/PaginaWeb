@@ -1,5 +1,7 @@
 
-/*Navbar*/
+.header.navbar {
+    background-color: black;
+}
 
 .img-logo{
     width: 200px;
@@ -9,7 +11,7 @@
 }
 
 
-img-carrusel {
+.img-carrusel {
     height: calc(100-vh - 76px);
     object-fit: cover;
     object-position: center;
@@ -44,4 +46,14 @@ color: white;
 border-radius: 10px;
 width: 50vw;
 
+}
+
+
+.header.navbar {
+    background-color: transparent !important;
+  }
+
+
+body {
+    background-color: rgba(28, 35, 131, 0.452);
 }
